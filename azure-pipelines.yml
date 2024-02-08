@@ -11,7 +11,6 @@ pool:
 
 jobs:
 - job: CreateNugetPackage
-  condition: succeeded()
   steps:
   - task: DotNetCoreCLI@2
     inputs:
