@@ -10,7 +10,8 @@ pool:
   vmImage: unbunto-latest
 
 jobs:
-- job: Build
+- job: CreateNugetPackage
+  condition: succeeded()
   steps:
   - task: DotNetCoreCLI@2
     inputs:
@@ -22,10 +23,6 @@ jobs:
     inputs:
       command: 'build'
       projects: '**/*.csproj'
-- job: CreateNugetPackage
-  dependsOn: Build
-  condition: succeeded()
-  steps:
   - task: DotNetCoreCLI@2
     inputs:
       command: 'pack'
