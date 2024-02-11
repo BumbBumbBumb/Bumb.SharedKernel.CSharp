@@ -7,6 +7,6 @@ public interface IRequiredGuidVal<TValObj>
     public static void ValidateAndThrow(Guid val)
     {
         if (val.Equals(Guid.Empty))
-            throw new InvalidRequiredGuidValException<TValObj>();
+            throw new InvalidRequiredGuidValExc<TValObj>();
     }
 }

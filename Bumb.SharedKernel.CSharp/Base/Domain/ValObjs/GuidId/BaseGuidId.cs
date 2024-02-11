@@ -1,4 +1,6 @@
-﻿namespace Bumb.SharedKernel.CSharp.Base.Domain.ValObjs.GuidVal;
+﻿using Bumb.SharedKernel.CSharp.Base.Domain.ValObjs.GuidVal;
+
+namespace Bumb.SharedKernel.CSharp.Base.Domain.ValObjs.GuidId;
 
 public abstract record BaseGuidId<TDerived> : BaseGuidVal
 {

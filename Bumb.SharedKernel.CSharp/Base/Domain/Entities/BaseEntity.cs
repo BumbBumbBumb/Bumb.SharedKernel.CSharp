@@ -1,4 +1,4 @@
-﻿using Bumb.SharedKernel.CSharp.Base.Domain.ValObjs.GuidVal;
+﻿using Bumb.SharedKernel.CSharp.Base.Domain.ValObjs.GuidId;
 
 namespace Bumb.SharedKernel.CSharp.Base.Domain.Entities;
 
