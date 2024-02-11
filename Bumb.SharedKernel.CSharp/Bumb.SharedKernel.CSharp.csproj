@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
 
         <PackageId>Bumb.SharedKernel.CSharp</PackageId>
-        <Version>1.0.4</Version>
+        <Version>1.0.5</Version>
         <Authors>pltvu.developer</Authors>
         <Copyright>Bumb</Copyright>
         <RepositoryUrl>https://github.com/BumbBumbBumb/Bumb.SharedKernel.CSharp</RepositoryUrl>
