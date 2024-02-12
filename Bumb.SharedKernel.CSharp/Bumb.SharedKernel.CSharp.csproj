@@ -12,4 +12,8 @@
         <RepositoryUrl>https://github.com/BumbBumbBumb/Bumb.SharedKernel.CSharp</RepositoryUrl>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Base\" />
+    </ItemGroup>
+
 </Project>
