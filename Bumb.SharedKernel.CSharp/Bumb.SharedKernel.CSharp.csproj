@@ -6,14 +6,14 @@
         <Nullable>enable</Nullable>
 
         <PackageId>Bumb.SharedKernel.CSharp</PackageId>
-        <Version>1.0.5</Version>
+        <Version>2.0.0</Version>
         <Authors>pltvu.developer</Authors>
         <Copyright>Bumb</Copyright>
         <RepositoryUrl>https://github.com/BumbBumbBumb/Bumb.SharedKernel.CSharp</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Base\" />
+      <Folder Include="Base\Drivens\Helpers\ExtValidators\" />
     </ItemGroup>
 
 </Project>
