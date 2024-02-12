@@ -3,7 +3,7 @@ using Bumb.SharedKernel.CSharp.Base.Drivens.Helpers.ExtValidators.StringValidato
 
 namespace Bumb.SharedKernel.CSharp.Base.Drivens.Helpers.ExtValidators.StringValidator;
 
-public static class StringExt
+public static class StringValidator
 {
     public static Exception? Required(this string value)
         => string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value)
