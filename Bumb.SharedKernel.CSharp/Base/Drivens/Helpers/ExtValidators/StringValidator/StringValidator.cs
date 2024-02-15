@@ -3,6 +3,14 @@ using Bumb.SharedKernel.CSharp.Base.Drivens.Helpers.ExtValidators.StringValidato
 
 namespace Bumb.SharedKernel.CSharp.Base.Drivens.Helpers.ExtValidators.StringValidator;
 
+/// <summary>
+/// <see cref="Required"/><br/>
+/// <see cref="MinLength"/><br/>
+/// <see cref="MaxLength"/><br/>
+/// <see cref="NoSpaceAround"/><br/>
+/// <see cref="NoSpace"/><br/>
+/// <see cref="Email"/><br/>
+/// </summary>
 public static class StringValidator
 {
     public static Exception? Required(this string value)

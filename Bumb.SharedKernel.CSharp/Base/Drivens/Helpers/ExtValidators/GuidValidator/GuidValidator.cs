@@ -2,6 +2,9 @@
 
 namespace Bumb.SharedKernel.CSharp.Base.Drivens.Helpers.ExtValidators.GuidValidator;
 
+/// <summary>
+/// <see cref="Required"/><br/>
+/// </summary>
 public static class GuidValidator
 {
     public static Exception? Required(this Guid value)
