@@ -12,8 +12,4 @@
         <RepositoryUrl>https://github.com/BumbBumbBumb/Bumb.SharedKernel.CSharp</RepositoryUrl>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Base\Drivens\Helpers\ExtValidators\" />
-    </ItemGroup>
-
 </Project>
