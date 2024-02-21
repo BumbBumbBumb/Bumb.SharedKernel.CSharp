@@ -5,6 +5,8 @@ public static class CommonErrorCodes
     public const string Invalid = nameof(Invalid);
     
     public const string Required = nameof(Required);
+    
+    public const string Duplicated = nameof(Duplicated);
 
     public const string ExceedMaxValue = nameof(ExceedMaxValue);
     public const string NotReachMinValue = nameof(NotReachMinValue);
