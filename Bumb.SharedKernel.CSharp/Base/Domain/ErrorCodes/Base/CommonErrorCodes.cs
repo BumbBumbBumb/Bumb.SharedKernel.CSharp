@@ -1,4 +1,4 @@
-﻿namespace Bumb.SharedKernel.CSharp.Domain.Base.ErrorCode;
+﻿namespace Bumb.SharedKernel.CSharp.Base.Domain.ErrorCodes.Base;
 
 public static class CommonErrorCodes
 {
@@ -6,8 +6,6 @@ public static class CommonErrorCodes
     
     public const string Required = nameof(Required);
     
-    public const string Duplicated = nameof(Duplicated);
-
     public const string ExceedMaxValue = nameof(ExceedMaxValue);
     public const string NotReachMinValue = nameof(NotReachMinValue);
 }

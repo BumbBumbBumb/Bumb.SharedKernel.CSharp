@@ -1,4 +1,4 @@
-﻿namespace Bumb.SharedKernel.CSharp.Domain.Base.ErrorCode;
+﻿namespace Bumb.SharedKernel.CSharp.Base.Domain.ErrorCodes.Base;
 
 public static class StringErrorCodes
 {

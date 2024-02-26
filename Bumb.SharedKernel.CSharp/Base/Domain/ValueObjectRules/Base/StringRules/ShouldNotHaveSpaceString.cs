@@ -1,7 +1,7 @@
-﻿using Bumb.SharedKernel.CSharp.Domain.Base.ErrorCode;
+﻿using Bumb.SharedKernel.CSharp.Base.Domain.ErrorCodes.Base;
 using FluentValidation;
 
-namespace Bumb.SharedKernel.CSharp.Domain.Base.Rules.StringRules;
+namespace Bumb.SharedKernel.CSharp.Base.Domain.ValueObjectRules.Base.StringRules;
 
 public class ShouldNotHaveSpaceString : AbstractValidator<string>
 {

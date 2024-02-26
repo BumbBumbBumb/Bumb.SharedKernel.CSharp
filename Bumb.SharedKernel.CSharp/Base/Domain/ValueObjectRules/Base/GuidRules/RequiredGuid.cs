@@ -1,7 +1,7 @@
-﻿using Bumb.SharedKernel.CSharp.Domain.Base.ErrorCode;
+﻿using Bumb.SharedKernel.CSharp.Base.Domain.ErrorCodes.Base;
 using FluentValidation;
 
-namespace Bumb.SharedKernel.CSharp.Domain.Base.Rules.GuidRules;
+namespace Bumb.SharedKernel.CSharp.Base.Domain.ValueObjectRules.Base.GuidRules;
 
 public sealed class RequiredGuid : AbstractValidator<Guid>
 {
