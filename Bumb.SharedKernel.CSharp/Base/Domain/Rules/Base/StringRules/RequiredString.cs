@@ -1,16 +1,16 @@
 ﻿using Bumb.SharedKernel.CSharp.Base.Domain.ErrorCodes.Base;
 using FluentValidation;
 
-namespace Bumb.SharedKernel.CSharp.Base.Domain.ValueObjectRules.Base.GuidRules;
+namespace Bumb.SharedKernel.CSharp.Base.Domain.Rules.Base.StringRules;
 
-public sealed class RequiredGuid : AbstractValidator<Guid>
+public class RequiredString : AbstractValidator<string>
 {
-    public RequiredGuid()
+    public RequiredString()
     {
-        RuleFor(id => id)
+        RuleFor(s => s)
             .NotNull()
             .WithErrorCode(nameof(CommonErrorCodes.Required))
-            .NotEqual(Guid.Empty)
+            .NotEmpty()
             .WithErrorCode(nameof(CommonErrorCodes.Required));
     }
 }

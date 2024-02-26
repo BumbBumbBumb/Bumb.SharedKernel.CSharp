@@ -1,7 +1,7 @@
 ﻿using Bumb.SharedKernel.CSharp.Base.Domain.ErrorCodes.Base;
 using FluentValidation;
 
-namespace Bumb.SharedKernel.CSharp.Base.Domain.ValueObjectRules.Base.StringRules;
+namespace Bumb.SharedKernel.CSharp.Base.Domain.Rules.Base.StringRules;
 
 public class MinLengthString : AbstractValidator<string>
 {
