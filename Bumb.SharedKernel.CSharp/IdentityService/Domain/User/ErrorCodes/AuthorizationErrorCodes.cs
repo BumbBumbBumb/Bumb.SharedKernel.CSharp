@@ -1,4 +1,4 @@
-﻿namespace Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Domain.User.ErrorCodes;
+﻿namespace Bumb.SharedKernel.CSharp.IdentityService.Domain.User.ErrorCodes;
 
 public static class AuthorizationErrorCodes
 {

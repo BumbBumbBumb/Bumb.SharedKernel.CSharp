@@ -1,4 +1,4 @@
-﻿namespace Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Domain.User.ValueObjects;
+﻿namespace Bumb.SharedKernel.CSharp.IdentityService.Domain.User.ValueObjects;
 
 // TODO should we load the permissions from db?
 public enum Role

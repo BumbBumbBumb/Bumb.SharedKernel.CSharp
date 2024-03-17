@@ -23,7 +23,7 @@
 
     <ItemGroup>
       <Folder Include="Base\Drivens\MicrosoftGraph\" />
-      <Folder Include="IdentityAzureADB2CService\Drivings\Authorization\NoRole\V1\" />
+      <Folder Include="IdentityService\Drivings\Authorization\NoRole\V1\" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using Bumb.SharedKernel.CSharp.Base.Drivings.Requests;
-using Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Domain.User.ValueObjects;
-using Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Drivings.Authorization.NoRole.V1.Contracts.Interfaces;
+using Bumb.SharedKernel.CSharp.IdentityService.Domain.User.ValueObjects;
+using Bumb.SharedKernel.CSharp.IdentityService.Drivings.Authorization.NoRole.V1.Contracts.Interfaces;
 using MediatR;
 
 namespace Bumb.SharedKernel.CSharp.Base.Drivings.Pipelines;

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Immutable;
-using Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Domain.User.ValueObjects;
+using Bumb.SharedKernel.CSharp.IdentityService.Domain.User.ValueObjects;
 
-namespace Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Domain.User.Services;
+namespace Bumb.SharedKernel.CSharp.IdentityService.Domain.User.Services;
 
 public interface IPermissionService;
 

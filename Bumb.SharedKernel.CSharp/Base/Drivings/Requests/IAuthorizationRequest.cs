@@ -1,5 +1,5 @@
-﻿using Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Domain.User.ValueObjects;
-using Bumb.SharedKernel.CSharp.IdentityAzureADB2CService.Drivings.Authorization.NoRole.V1.Contracts.Response;
+﻿using Bumb.SharedKernel.CSharp.IdentityService.Domain.User.ValueObjects;
+using Bumb.SharedKernel.CSharp.IdentityService.Drivings.Authorization.NoRole.V1.Contracts.Response;
 
 namespace Bumb.SharedKernel.CSharp.Base.Drivings.Requests;
 
